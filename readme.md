@@ -102,7 +102,7 @@ Despite this, Value Iteration remains numerically stable and yields globally opt
 
 ---
 
-## 📷 Visualization Example  
+## Visualization Example  
 
 - **Left:** Original maze (walls = black, paths = white)  
 - **Right:** Solved maze (optimal path = red, start = green, goal = blue)  
