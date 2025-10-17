@@ -5,9 +5,12 @@
 ---
 
 ## $\text{Overview}$
-$\text{This project implements a deterministic } \mathbf{Markov \text{ Decision Process } (MDP)} \text{ and solves it using the } \mathbf{Value \text{ Iteration algorithm}} \text{ to compute an optimal navigation policy in a 2D maze environment.}$
-$\text{Each grid cell represents a state, and actions correspond to four directional movements.}$
-$\text{The implementation demonstrates Bellman optimality, convergence properties, and computational scaling of dynamic programming in reinforcement learning.}$
+This project implements a deterministic Markov Decision Process (MDP) and solves it using the Value Iteration algorithm to compute an optimal navigation policy in a 2D maze environment.
+There are several free resources available to generate mazes in order to test your algorithms. For instance, this free
+generator https://keesiemeijer.github.io/maze-generator generates a PNG image for mazes of any custom
+size, rows and columns.
+Each grid cell represents a state, and actions correspond to four directional movements.
+The implementation demonstrates Bellman optimality, convergence properties, and computational scaling of dynamic programming in reinforcement learning.
 
 ---
 
@@ -131,6 +134,3 @@ jupyter notebook project1.ipynb
 To test custom mazes, replace maze.png with a binary maze image (black–white).
 The agent will automatically detect start/end points and output solvedmaze.png.
 
-## Author
-Yankai Zhao
-M.Eng. in Electrical and Computer Engineering Lehigh University
